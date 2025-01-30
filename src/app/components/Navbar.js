@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-white text-black px-6 py-3 flex items-center justify-between">
       {/* Left: Logo + Company Name */}
       <div className="flex items-center space-x-3">
-        <img src="/logo.png" alt="AlgoCube Logo" className="h-10 w-10" />
+        <img src="/png/algocubeIcon.png" alt="AlgoCube Logo" className="h-10 w-10" />
         <Link href={"/"} className="hover:text-gray-400">ALGOCUBE</Link>
       </div>
 
@@ -44,9 +44,11 @@ const Navbar = () => {
         </Link>
 
         {/* Join for Free Button */}
+        <div className="text-white  ">
         <Link href="/signup" className="bg-purple-600 px-4 py-2 rounded-md hover:bg-purple-700 flex items-center">
           Join For Free →
         </Link>
+        </div>
       </div>
     </nav>
   );

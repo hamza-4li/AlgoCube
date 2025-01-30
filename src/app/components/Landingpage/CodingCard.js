@@ -1,6 +1,6 @@
 export default function CodingRoadmapCard() {
     return (
-      <div className="rounded-3xl bg-[#e9e4eb] py-4 mx-4  my-4">
+      <div className="rounded-3xl bg-[#E8E8E8] py-4 mx-4  my-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center">
             <img

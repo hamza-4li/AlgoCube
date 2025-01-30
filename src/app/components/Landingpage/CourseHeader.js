@@ -6,7 +6,7 @@ export default function CourseHeader() {
           <span className="text-[#B447FF]">engineering roles</span>{' '}
           and levels
         </h1>
-        <p className="text-gray-600 text-xl">
+        <p className="text-gray-600 text-xl border-2 border-red-800">
           All courses are developed for engineers with 5+ years of experience and taught by Aglo Cube Instructors
         </p>
       </div>

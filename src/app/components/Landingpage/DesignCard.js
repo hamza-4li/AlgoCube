@@ -1,6 +1,6 @@
 export default function DesignCard() {
     return (
-      <div className="rounded-lg shadow-lg overflow-hidden bg-[#FDF7FF]">
+      <div className="rounded-3xl  overflow-hidden bg-[#E8E8E8] py-4 mx-4  my-4">
         <div className="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <div>
