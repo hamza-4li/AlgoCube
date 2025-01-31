@@ -38,19 +38,7 @@ export default function SearchandCategories() {
                 ))}
             </div>
             <div className="flex items-center justify- p-4 bg-gradient-to-r from-white to-purple-100">
-                {/* Title */}
-                <h2 className="text-xl font-semibold text-gray-900">New Arrivals</h2>
-
-                {/* Navigation Buttons */}
-                <div className="flex gap-2">
-                    <button className="p-2 border border-purple-400 rounded-full text-purple-400 hover:bg-purple-100 transition">
-                        <ChevronLeft size={18} />
-                    </button>
-                    <button className="p-2 border border-purple-400 rounded-full text-purple-600 hover:bg-purple-500 hover:text-white transition">
-                        <ChevronRight size={18} />
-                    </button>
                 </div>
             </div>
-        </div>
     );
 }
